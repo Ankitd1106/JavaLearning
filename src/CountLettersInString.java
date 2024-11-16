@@ -1,11 +1,11 @@
 import java.util.HashMap;
+import java.util.LinkedHashMap;
 import java.util.Map;
 
 public static void main(String[] args) {
-    String s = "aabbcaaaaaaaccccccccccpieuyioyeqpowujdpazmowduhaiofyoweufmaoppmwefuqemyromqYOQHEf";
-    char ch = 'o';
+    String s = "tomato";
 
-    HashMap<Character, Integer> map = new HashMap<>();
+    HashMap<Character, Integer> map = new LinkedHashMap<>();
 
     for (char c : s.toLowerCase().toCharArray()) {
         if (map.containsKey(c)) {
