@@ -1,4 +1,4 @@
-package practicePrograms;
+package javaConcepts;
 
 abstract class Shape {
     // Abstract method (does not have a body)
@@ -49,8 +49,8 @@ public class test {
         circle.display();
         System.out.println("Area of circle: " + circle.area());
 
-//        practicePrograms.Rectangle r = new practicePrograms.Rectangle(2,2);
-//        practicePrograms.Circle c = new practicePrograms.Circle(100);
+//        concepts.Rectangle r = new concepts.Rectangle(2,2);
+//        concepts.Circle c = new concepts.Circle(100);
 //
 //        r.display();
 //        System.out.println("area of rect ="+r.area());

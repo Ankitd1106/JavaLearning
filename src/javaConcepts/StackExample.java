@@ -1,4 +1,4 @@
-package practicePrograms;
+package javaConcepts;
 
 import java.util.Stack;
 
