@@ -1,4 +1,7 @@
-public static String findLargestCommonSubstring(String string1, String string2) {
+public static void main(String[] args) {
+    String string1 = "ankit";
+    String string2 = "ankhoperankitghaiheanktuafw";
+
     int maxLength = 0;
     String largestSubstring = "";
 
@@ -14,13 +17,5 @@ public static String findLargestCommonSubstring(String string1, String string2) 
             }
         }
     }
-    return largestSubstring;
-}
-
-public static void main(String[] args) {
-    String string1 = "ankitabc";
-    String string2 = "xyzmanojankitabcmanoj";
-
-    String result = findLargestCommonSubstring(string1, string2);
-    System.out.println("Largest common substring: " + result);
+    System.out.println("Largest common substring: " + largestSubstring);
 }

@@ -1,12 +1,12 @@
 public static void main(String[] args) {
 
-    for (int i = 1; i <= 100; i++) {
+    for (int i = 0; i <= 100; i++) {
         if (i % 3 == 0 && i % 5 == 0) {
-            System.out.println("Div by 3 and 5 Fizz-Buzz");
+            System.out.println("Fizz-Buzz");
         } else if (i % 5 == 0) {
-            System.out.println("Div by 5 - Buzz");
+            System.out.println("Buzz");
         } else if (i % 3 == 0) {
-            System.out.println("Div by 3 - Fizz");
+            System.out.println("Fizz");
         } else {
             System.out.println(i);
         }

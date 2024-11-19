@@ -1,3 +1,5 @@
+package practicePrograms;
+
 import java.util.regex.*;
 
 public class SumOfNumbersInString {

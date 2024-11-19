@@ -1,4 +1,4 @@
-/*
+package practicePrograms;/*
 https://www.youtube.com/watch?v=khnair65cVc
  */
 
@@ -20,6 +20,6 @@ public class Singleton {
     }
 
     public void testMethod(){
-        System.out.println("Singleton pattern achieved");
+        System.out.println("practicePrograms.Singleton pattern achieved");
     }
 }

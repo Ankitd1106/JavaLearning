@@ -1,3 +1,5 @@
+package practicePrograms;
+
 abstract class Shape {
     // Abstract method (does not have a body)
     public abstract double area();
@@ -47,8 +49,8 @@ public class test {
         circle.display();
         System.out.println("Area of circle: " + circle.area());
 
-//        Rectangle r = new Rectangle(2,2);
-//        Circle c = new Circle(100);
+//        practicePrograms.Rectangle r = new practicePrograms.Rectangle(2,2);
+//        practicePrograms.Circle c = new practicePrograms.Circle(100);
 //
 //        r.display();
 //        System.out.println("area of rect ="+r.area());

@@ -1,3 +1,5 @@
+package practicePrograms;
+
 public class CheckPromoCode {
     public static void checkCode() {
 //        Scanner data = new Scanner(System.in);

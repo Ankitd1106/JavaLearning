@@ -1,3 +1,5 @@
+package practicePrograms;
+
 import java.util.*;
 
 enum Gfg {CODE, LEARN, CONTRIBUTE, QUIZ, MCQ}
