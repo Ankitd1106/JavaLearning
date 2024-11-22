@@ -22,6 +22,11 @@ public class Singleton {
     }
 
     public void testMethod(){
-        System.out.println("concepts.Singleton pattern achieved");
+        System.out.println("Singleton pattern achieved");
+    }
+
+    public static void main(String[] args) {
+        Singleton single = Singleton.getInstance();
+        single.testMethod();
     }
 }
