@@ -8,4 +8,8 @@ public interface TestInterface {
     default void intfaceConcrete(){
         System.out.println("this is a deafult concerte method of the TestInterface");
     }
+
+    default void staticIntfaceConcrete(){
+        System.out.println("this is a static concerte method of the TestInterface");
+    }
 }

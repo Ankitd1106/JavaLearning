@@ -14,6 +14,10 @@ public class TestClass extends TestAbstractClass implements TestInterface {
         System.out.println("default method in TestInterface - overridden in TestClass");
     }
 
+//    public void staticIntfaceConcrete(){
+//        System.out.println("static method in TestInterface - overridden in TestClass");
+//    }
+
     @Override
     public void abstractMethodOfAbstractClass() {
         System.out.println("this is printing - from TestInterface");
@@ -28,6 +32,7 @@ public class TestClass extends TestAbstractClass implements TestInterface {
         tc.abstractMethodOfInterface();
         tc.printVariable();
         tc.intfaceConcrete();
+        tc.staticIntfaceConcrete();
         tc.abstractMethodOfAbstractClass();
         tc.concrtetMethodOfAbstractClass();
     }

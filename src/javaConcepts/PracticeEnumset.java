@@ -5,7 +5,7 @@ import java.util.*;
 enum Gfg {CODE, LEARN, CONTRIBUTE, QUIZ, MCQ}
 ;
 
-public class EnumsetPractice {
+public class PracticeEnumset {
 
     public static void main(String[] args) {
         // Creating a set
