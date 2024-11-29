@@ -26,18 +26,15 @@ public class BalancedBrackets {
                     return false;
                 }
             }
-
         }
         // If stack is empty, all brackets were matched
         return stack.isEmpty();
     }
 
     public static void main(String[] args) {
-        // Test examples
         System.out.println(isBalanced("()[]{}]"));  // Output: false
         System.out.println(isBalanced("[{()}]")); // Output: true
         System.out.println(isBalanced("[]{}()[{(({[]}))}][]{}()"));// Output: true
         System.out.println(isBalanced("[)(]"));// Output: true
-
     }
 }

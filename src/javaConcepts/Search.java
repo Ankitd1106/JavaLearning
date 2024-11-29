@@ -93,6 +93,4 @@ public class Search {
         System.out.println("Step in binary search = " + steps);
         return -1;
     }
-
-
 }

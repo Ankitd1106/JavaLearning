@@ -5,28 +5,19 @@ import java.util.regex.Pattern;
 
 public class SumOfNumbersInString {
 
-    public static int sumOfNumbers(String str) {
-        if (str == null || str.isEmpty()) {
-            return 0;
-        }
-
-        // Use regex to find numbers
-        Pattern pattern = Pattern.compile("-?\\d+");
-        Matcher matcher = pattern.matcher(str);
-
+    public static void main(String[] args) {
+        String str = "1abc2cde230fhk";
         int sum = 0;
 
-        // Find all numbers and add them to the sum
-        while (matcher.find()) {
-            sum = sum + Integer.parseInt(matcher.group());
+        if (str != null || !str.isEmpty()) {
+            Pattern pattern = Pattern.compile("-?\\d+");
+            Matcher matcher = pattern.matcher(str);
+
+            while (matcher.find()) {
+                sum = sum + Integer.parseInt(matcher.group());
+            }
         }
 
-        return sum;
-    }
-
-    public static void main(String[] args) {
-        String str = "1abc2cde23fhk";
-        int sum = sumOfNumbers(str);
         System.out.println("Sum of numbers: " + sum);
     }
 }
