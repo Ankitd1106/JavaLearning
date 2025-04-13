@@ -2,8 +2,10 @@ package javaConcepts;
 
 import java.util.Stack;
 
-public class StackExample {
-    public static void Stck() {
+public class PracticeStack {
+
+    public static void main(String[] args) {
+
         Stack<Integer> stack = new Stack<>();
 
         // Push elements onto the stack
@@ -18,6 +20,10 @@ public class StackExample {
 
         // Pop the top element
         System.out.println("Popped element: " + stack.pop());
+        System.out.println("Popped element: " + stack.pop());
+        System.out.println("Popped element: " + stack.pop());
+
+        System.out.println("Top element: " + stack.peek());
 
         // Check if the stack is empty
         System.out.println("Is stack empty? " + stack.isEmpty());

@@ -2,7 +2,7 @@ package practicePrograms;
 
 import java.util.Stack;
 
-public class BalancedBrackets {
+public class BalancedParanthesis {
 
     public static boolean isBalanced(String s) {
         // Stack to keep track of opening brackets
